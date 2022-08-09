@@ -1,0 +1,31 @@
+08/08/2022
+
+- re-reading part one of tutorial: if 'Cannot open include file:',
+    it doesn't know where the header files are. there is an 
+    option in project properties where you can include directories
+    that you want. you need to include the directory where you
+    put the library when you downloaded it
+
+- PART 2: loading an image into window. having a lot of trouble
+    doing this. getting an error 'SDL error: Parameter 'src' is 
+    invalid'.
+    - SOLN: it was some sort of pathing issue. i just moved the 
+    actual bmp file from downloads into the directory where the 
+    .exe is (C:\Users\Miles\source\repos\SDLtutorial\x64\Debug\) 
+    and then absolute pathed also since even after doing that 
+    relative pathing did not work. note: when adding a file it 
+    doesn't actually add it to the path lol. I also had to add 
+    the file to project and move it out of "Resource files". not 
+    sure if that made a difference though it might just have been 
+    the absolute pathing. :/
+
+- PART 3: event handling (this is user input etc)
+
+
+06/08/2022
+
+- set up new github account and added an ssh key 
+    (in Users/Miles/.ssh/)
+- SDL2: its like psychopy in that it is a library that provides
+    access to audio and keyboard etc stuff that is useful in 
+    game dev. has cross-platform support
